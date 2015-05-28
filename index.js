@@ -16,7 +16,7 @@ function convertRankingToJson(html, server_res) {
     var tabletojson = require('tabletojson');
     var tablesAsJson = tabletojson.convert(html);
 
-    server_res.writeHead(200, {'Content-Type': 'application/json'});
+    server_res.writeHead(200, {'Content-Type': 'application/json;charset=utf-8'});
     server_res.write(JSON.stringify(tablesAsJson));
     server_res.end();
 }
