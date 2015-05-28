@@ -1,0 +1,27 @@
+{
+  "name": "fifa-ranking-loopback",
+  "version": "0.0.1",
+  "description": "NodeJS server provides REST API for FIFA ranking.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paipeng/fifa-ranking-loopback.git"
+  },
+  "keywords": [
+    "FIFA",
+    "RANKING",
+    "JSON"
+  ],
+  "author": "Pai Peng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paipeng/fifa-ranking-loopback/issues"
+  },
+  "homepage": "https://github.com/paipeng/fifa-ranking-loopback",
+  "dependencies": {
+    "tabletojson": "^0.2.1"
+  }
+}
