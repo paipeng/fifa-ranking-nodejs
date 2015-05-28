@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/paipeng/fifa-ranking-loopback",
   "dependencies": {
+    "express": "^4.12.4",
     "tabletojson": "^0.2.1"
   }
 }
